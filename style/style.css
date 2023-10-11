@@ -97,8 +97,6 @@ article img{
   left: 65px;
 }
 
-
-
 .brand{
   font-size: 0.9rem;
 }
@@ -118,6 +116,21 @@ article img{
   text-decoration: line-through;
 }
 
+footer section{
+  justify-content: space-between;
+}
+
+section a{
+  text-decoration: none;
+  color: white;
+  font-size: .8rem;
+  padding-right: 0.2rem;
+}
+
+.links i{
+  font-size: 1.5rem;
+}
+
 header{
   position: fixed;
   width: 100%;
@@ -131,3 +144,9 @@ main{
   padding-top: 120px;
 }
 
+footer{
+  padding: 3rem 0;
+  width: 100%;
+  background-color: #020100;
+  color: white;
+}
