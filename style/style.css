@@ -3,3 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container{
+  width: 75%;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.flex{
+  display: flex;
+}
+
+nav.flex{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gender a{
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.action i{
+  padding: 0 0.1rem;
+}
+
+.logo img{
+  height: 30px;
+  padding: 0;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  background-color: #ff6900;
+  box-shadow: 1px 1px 5px black;
+  color: white;
+}
+
