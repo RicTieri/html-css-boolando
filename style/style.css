@@ -7,11 +7,16 @@
 .container{
   width: 75%;
   margin: auto;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .flex{
   display: flex;
+}
+
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 nav.flex{
@@ -34,11 +39,38 @@ nav.flex{
   padding: 0;
 }
 
+article.product{
+  width: calc((100% / 3) -4rem);
+  margin: 1rem;
+}
+
+article.product img{
+  width: 100%;
+  height: 100%;
+}
+
+.product-name{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sale-price{
+  color: red;
+}
+
+.regular-price{
+  text-decoration: line-through;
+}
+
 header{
   position: fixed;
   width: 100%;
   background-color: #ff6900;
   box-shadow: 1px 1px 5px black;
   color: white;
+}
+
+main{
+  padding: 300px;
 }
 
