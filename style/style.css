@@ -54,7 +54,10 @@ article.product{
 
 article img{
   height: 600px;
+}
 
+.second-view:hover{
+  display: none;
 }
 
 .offer,
